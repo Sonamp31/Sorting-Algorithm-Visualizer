@@ -1,0 +1,118 @@
+/*For heading*/
+
+/* CSS for main page */
+*{
+    background-color: rgb(58, 61, 61);
+    color:white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    border:solid 4px rgb(172, 166, 51);
+    border-radius: 6px;
+   
+    /* align:center; */
+    width:23%;
+    margin:0px 33%;
+    padding:30px 25px 30px 20px;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    color:white;
+}
+.container button{
+    width:50%;
+    margin:0 auto;
+    margin-left: 22%;
+    margin-top:8%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 4, 5);
+    background-color: white;
+}
+a:hover{
+    color:red;
+}
+
+
+
+/* CSS for Sorting Page */
+.row{
+    display: grid;
+    grid-template-columns: 0.1fr 0.5fr 0.4fr; 
+    
+}
+/* .row:hover{
+    color: red;
+} */
+button{
+    padding:6px;
+    font-size: 20px;
+}
+.row button{
+    background-color: rgb(48, 148, 195);
+    color:white;
+    border:2px solid rgb(237, 249, 67);
+    border-radius: 10px;
+}
+.row button:hover{
+    color:rgb(210, 223, 34);
+}
+
+.row button:visited{
+    color:rgb(223, 34, 69);
+}
+/* #algo{
+    margin:auto 5px;
+} */
+
+.flex-container{
+    margin-top:20px;
+    display:flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row-reverse; */
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+    /* position:absolute; */
+    /* margin:  auto; */
+    /* //top: 50vh; */
+    /* left: 100px;*/
+    
+
+
+
+    
+}
+
+.flex-item{
+    background: cyan;
+    border: 1pt solid black;
+    /* flex-direction: row-reverse; */
+    width: 10px;
+    transition: 0.1s all ease;
+    display: inline-block;
+    /*to reverse the bars*/
+    align-self:  flex-end; 
+
+    margin: 0 1px;
+}
+
+
+
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
