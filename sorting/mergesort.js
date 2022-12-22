@@ -89,7 +89,7 @@ async function merge(ele , l, mid ,r)
         k++;
     }
 
-    while(i<n2)                        //for storing element remained after comarison from right temp array
+    while(j<n2)                        //for storing element remained after comarison from right temp array
     {
         await waitforme(delay);
         console.log("In while if n2 is left");
